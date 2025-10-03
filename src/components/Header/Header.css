@@ -1,0 +1,6 @@
+.header{
+    animation: fadeIn 2s;
+}
+.header-contains{
+    animation: fadeInContain 4s;
+}
