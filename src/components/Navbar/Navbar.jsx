@@ -1,22 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import wbLogo from "../../assets/Logo.png";
 import Container from "../Container/Container";
 import { Search, ShoppingCart } from "lucide-react";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("home");
-
   const menuItems = [
-    { id: "home", label: "Home" },
-    { id: "menu", label: "Menu" },
-    { id: "mobile_app", label: "Mobile-App" },
-    { id: "contact_us", label: "Contact Us" },
+    { id: "home", label: "Home", path: "/home" },
+    { id: "menu", label: "Menu", path: "/menu" },
+    { id: "mobile_app", label: "Mobile-App", path: "/mobile_app" },
+    { id: "contact_us", label: "Contact Us", path: "/contact_us" },
   ];
 
   return (
     <Container>
-      <div className="navbar bg-amber-100 px-5">
+      <div className="navbar px-5">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -42,27 +41,30 @@ const Navbar = () => {
             >
               {menuItems.map((item) => (
                 <li key={item.id}>
-                  <a onClick={() => setMenu(item.id)}>{item.label}</a>
+                  <Link to={item.path}>{item.label}</Link>
                 </li>
               ))}
             </ul>
           </div>
-          <a className="">
+          <a className="flex justify-center items-center ">
             <img src={wbLogo} alt="Logo" className="w-[70px] h-[70px]" />
+            <span className="text-lg text-green-800 font-bold">
+              Fresh<span className="text-amber-700">Bite</span>
+            </span>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex justify-between items-center space-x-3 px-1 text-amber-700 font-semibold cursor-pointer">
             {menuItems.map((item) => (
               <li key={item.id}>
-                <a
-                  onClick={() => setMenu(item.id)}
-                  className={
-                    menu === item.id ? "pb-1 border-b-2 border-b-amber-800" : ""
+                <NavLink
+                  to={item.path}
+                  className={({ isActive }) =>
+                    isActive ? "pb-1 border-b-2 border-b-amber-800" : ""
                   }
                 >
                   {item.label}
-                </a>
+                </NavLink>
               </li>
             ))}
           </ul>
@@ -75,7 +77,7 @@ const Navbar = () => {
             <ShoppingCart size={20} color="#ed6002" strokeWidth={1.25} />
           </div>
           <div className="ml-3">
-            <button className="btn btn-soft btn-warning rounded-full">
+            <button className="btn btn-soft btn-warning rounded-full text-amber-800">
               Sing In
             </button>
           </div>
