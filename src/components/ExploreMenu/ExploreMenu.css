@@ -1,6 +1,4 @@
-.explore-menu-list::-webkit-scrollbar{
-    display: none;
-}
+
 .explore-menu-list-item img{
     transition: 0.2s;
 }

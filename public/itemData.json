@@ -6,7 +6,7 @@
     "price": 300,
     "description": "Fresh Greek style salad with veggies and cheese.",
     "category": "Salad",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.2
   },
   {
     "_id": "2",
@@ -15,7 +15,7 @@
     "price": 230,
     "description": "Healthy mix of seasonal vegetables.",
     "category": "Salad",
-    "rating": "⭐⭐⭐"
+    "rating": 3.5
   },
   {
     "_id": "3",
@@ -24,7 +24,7 @@
     "price": 260,
     "description": "Clover leaves and veggies tossed with light dressing.",
     "category": "Salad",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.8
   },
   {
     "_id": "4",
@@ -33,7 +33,7 @@
     "price": 330,
     "description": "Chicken mixed with fresh greens and creamy sauce.",
     "category": "Salad",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.3
   },
   {
     "_id": "5",
@@ -42,7 +42,7 @@
     "price": 260,
     "description": "Cheesy lasagna rolls baked to perfection.",
     "category": "Rolls",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.1
   },
   {
     "_id": "6",
@@ -51,7 +51,7 @@
     "price": 200,
     "description": "Spicy peri peri chicken wrapped in soft rolls.",
     "category": "Rolls",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.0
   },
   {
     "_id": "7",
@@ -60,7 +60,7 @@
     "price": 240,
     "description": "Juicy chicken rolled in soft bread wrap.",
     "category": "Rolls",
-    "rating": "⭐⭐⭐"
+    "rating": 3.7
   },
   {
     "_id": "8",
@@ -69,7 +69,7 @@
     "price": 170,
     "description": "Crispy rolls stuffed with seasonal vegetables.",
     "category": "Rolls",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.2
   },
   {
     "_id": "9",
@@ -78,7 +78,7 @@
     "price": 160,
     "description": "Ripple flavored creamy ice cream.",
     "category": "Deserts",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.9
   },
   {
     "_id": "10",
@@ -87,7 +87,7 @@
     "price": 220,
     "description": "Fresh fruit flavored ice cream.",
     "category": "Deserts",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.4
   },
   {
     "_id": "11",
@@ -96,7 +96,7 @@
     "price": 100,
     "description": "Delicious ice cream served in a jar.",
     "category": "Deserts",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.1
   },
   {
     "_id": "12",
@@ -105,7 +105,7 @@
     "price": 140,
     "description": "Classic vanilla ice cream.",
     "category": "Deserts",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.2
   },
   {
     "_id": "13",
@@ -114,7 +114,7 @@
     "price": 200,
     "description": "Grilled chicken stuffed sandwich.",
     "category": "Sandwich",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.3
   },
   {
     "_id": "14",
@@ -123,7 +123,7 @@
     "price": 240,
     "description": "Plant-based sandwich with healthy filling.",
     "category": "Sandwich",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.8
   },
   {
     "_id": "15",
@@ -132,7 +132,7 @@
     "price": 180,
     "description": "Crispy grilled sandwich with cheese.",
     "category": "Sandwich",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.2
   },
   {
     "_id": "16",
@@ -141,7 +141,7 @@
     "price": 280,
     "description": "Simple and tasty bread sandwich.",
     "category": "Sandwich",
-    "rating": "⭐⭐⭐"
+    "rating": 3.6
   },
   {
     "_id": "17",
@@ -150,7 +150,7 @@
     "price": 160,
     "description": "Soft and fluffy cup cake.",
     "category": "Cake",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.9
   },
   {
     "_id": "18",
@@ -159,7 +159,7 @@
     "price": 200,
     "description": "Eggless vegan cake with soft texture.",
     "category": "Cake",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.3
   },
   {
     "_id": "19",
@@ -168,7 +168,7 @@
     "price": 260,
     "description": "Rich butterscotch flavored cake.",
     "category": "Cake",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.8
   },
   {
     "_id": "20",
@@ -177,7 +177,7 @@
     "price": 180,
     "description": "Fresh sliced cake with cream topping.",
     "category": "Cake",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.2
   },
   {
     "_id": "21",
@@ -186,7 +186,7 @@
     "price": 170,
     "description": "Mushrooms fried with garlic seasoning.",
     "category": "Pure Veg",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.2
   },
   {
     "_id": "22",
@@ -195,7 +195,7 @@
     "price": 210,
     "description": "Crispy fried cauliflower snack.",
     "category": "Pure Veg",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.3
   },
   {
     "_id": "23",
@@ -204,7 +204,7 @@
     "price": 130,
     "description": "Rice cooked with mixed vegetables.",
     "category": "Pure Veg",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.0
   },
   {
     "_id": "24",
@@ -213,7 +213,7 @@
     "price": 180,
     "description": "Rice cooked with zucchini and spices.",
     "category": "Pure Veg",
-    "rating": "⭐⭐⭐"
+    "rating": 3.7
   },
   {
     "_id": "25",
@@ -222,7 +222,7 @@
     "price": 200,
     "description": "Creamy cheese pasta for cheese lovers.",
     "category": "Pasta",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.2
   },
   {
     "_id": "26",
@@ -231,7 +231,7 @@
     "price": 240,
     "description": "Tomato flavored pasta cooked with herbs.",
     "category": "Pasta",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.3
   },
   {
     "_id": "27",
@@ -240,7 +240,7 @@
     "price": 220,
     "description": "Delicious pasta with creamy white sauce.",
     "category": "Pasta",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.1
   },
   {
     "_id": "28",
@@ -249,7 +249,7 @@
     "price": 280,
     "description": "Pasta mixed with grilled chicken pieces.",
     "category": "Pasta",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.9
   },
   {
     "_id": "29",
@@ -258,7 +258,7 @@
     "price": 180,
     "description": "Noodles tossed in butter and spices.",
     "category": "Noodles",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.2
   },
   {
     "_id": "30",
@@ -267,7 +267,7 @@
     "price": 160,
     "description": "Vegetable flavored stir fried noodles.",
     "category": "Noodles",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.0
   },
   {
     "_id": "31",
@@ -276,7 +276,7 @@
     "price": 240,
     "description": "Japanese style thin noodles.",
     "category": "Noodles",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.8
   },
   {
     "_id": "32",
@@ -285,7 +285,7 @@
     "price": 190,
     "description": "Hot cooked noodles served with sauce.",
     "category": "Noodles",
-    "rating": "⭐⭐⭐⭐"
+    "rating": 4.1
   },
   {
     "_id": "33",
@@ -294,7 +294,7 @@
     "price": 330,
     "description": "Juicy beef patty burger with cheese and veggies.",
     "category": "Burger",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.9
   },
   {
     "_id": "34",
@@ -303,7 +303,7 @@
     "price": 280,
     "description": "Vanilla ice cream on a fudgy brownie, topped with Oreo crumble and chocolate drizzle",
     "category": "Desserts",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.8
   },
   {
     "_id": "35",
@@ -312,6 +312,6 @@
     "price": 250,
     "description": "Cheesy baked pasta layered with pepperoni and rich tomato sauce.",
     "category": "Pasta",
-    "rating": "⭐⭐⭐⭐⭐"
+    "rating": 4.9
   }
 ]

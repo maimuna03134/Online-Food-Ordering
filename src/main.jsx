@@ -8,6 +8,10 @@ import PlaceOrder from './components/PlaceOrder/PlaceOrder.jsx'
 import Root from './components/Root/Root.jsx'
 import Home from './components/Home/Home.jsx'
 import Menu from './components/Menu/Menu.jsx'
+import AboutUs from './components/AboutUs/AboutUs.jsx'
+import ContactUs from './components/ContactUs/ContactUs.jsx'
+import CustomerReview from './components/CustomerReview/CustomerReview.jsx'
+import GetOffer from './components/GetOffer/GetOffer.jsx'
 
 
 
@@ -16,19 +20,35 @@ import Menu from './components/Menu/Menu.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
-    Component:Root,
+    Component: Root,
     children: [
       {
         index: true,
-        Component:Home,
+        Component: Home,
       },
       {
         path: "/home",
-        Component:Home,
+        Component: Home,
       },
       {
-        path: '/menu',
-        Component:Menu,
+        path: "/menu",
+        Component: Menu,
+      },
+      {
+        path: "/about_us",
+        Component: AboutUs,
+      },
+      {
+        path: "/contact_us",
+        Component: ContactUs,
+      },
+      {
+        path: "/reviews",
+        Component: CustomerReview,
+      },
+      {
+        path: "/offers",
+        Component:GetOffer,
       },
       {
         path: "/cart",

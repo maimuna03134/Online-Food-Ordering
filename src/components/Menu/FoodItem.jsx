@@ -1,30 +1,64 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './FoodItem.css'
+import { assets } from '../../assets/assets';
+import { IoStarHalf } from "react-icons/io5";
 
-const FoodItem = ({item}) => {
+const FoodItem = ({ item }) => {
+  const [itemCount, setItemCount] = useState(0);
+  // console.log(itemCount);
+
     return (
-      <div className="food-item card shadow ">
-        <figure>
-          <img
-            className="cursor-pointer object-cover w-[300px] h-[300px] rounded-lg"
-            src={item.image}
-            alt={item.image}
-          />
-        </figure>
+      <div className="food-item card shadow">
+        <div className="relative cursor-pointer">
+          <figure>
+            <img
+              className="cursor-pointer object-cover w-[350px] h-[200px] rounded-lg p-1 shadow-2xl bg-amber-100"
+              src={item.image}
+              alt={item.image}
+            />
+          </figure>
+          {!itemCount ? (
+            <img
+              className="w-8 absolute bottom-[15px] right-[15px] rounded-[50%]"
+              onClick={() => setItemCount((prev) => prev + 1)}
+              src={assets.add_icon_white}
+              alt=""
+            />
+          ) : (
+            <div className="absolute flex items-center gap-3 bottom-[15px] right-[15px] p-1 rounded-[50px] bg-white">
+              <img
+                className="w-6"
+                onClick={() => setItemCount((prev) => prev - 1)}
+                src={assets.remove_icon_red}
+                alt=""
+              />
+              <p>{itemCount}</p>
+              <img
+                className="w-6"
+                onClick={() => setItemCount((prev) => prev + 1)}
+                src={assets.add_icon_green}
+                alt=""
+              />
+            </div>
+          )}
+        </div>
+
         <div className="card-body">
-          <div className='flex justify-between items-center mb-3'>
-            <h2 className="card-title text-amber-600 hover:text-amber-700 text-xl font-semibold cursor-pointer">
+          <div className="flex justify-between items-center mb-3">
+            <h2 className="card-title text-amber-600 hover:text-amber-700 text-base lg:text-xl font-semibold cursor-pointer">
               {item.name}
             </h2>
-            <span>{item.rating}</span>
+            <span className="flex justify-between items-center gap-x-1 text-amber-700">
+              {item.rating} <IoStarHalf />
+            </span>
           </div>
           <p className="text-sm text-gray-600">{item.description}</p>
           <p className="text-base text-amber-600 font-semibold">
             ৳ <span>{item.price}</span>
           </p>
-          <div className="card-actions justify-end">
+          {/* <div className="card-actions justify-end">
             <button className="btn btn-primary">Buy Now</button>
-          </div>
+          </div> */}
         </div>
       </div>
     );

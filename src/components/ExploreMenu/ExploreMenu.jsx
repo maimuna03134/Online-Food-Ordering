@@ -6,7 +6,7 @@ import Container from "../Container/Container";
 const ExploreMenu = ({ category, setCategory }) => {
   return (
     <Container>
-      <div className="explore-menu flex flex-col  gap-5 my-10">
+      <div className="explore-menu flex flex-col  gap-5 my-10 p-4 md:p-2 lg:p-0">
         <h1 className="text-2xl text-amber-600 font-semibold">
           Explore Our Menu
         </h1>
@@ -15,7 +15,7 @@ const ExploreMenu = ({ category, setCategory }) => {
           meals, we serve up joy in every bite. <br />
           Explore our menu and treat yourself to something truly delicious.
         </p>
-        <div className="explore-menu-list flex justify-between items-center gap-7 text-center ">
+        <div className="explore-menu-list lg:flex lg:justify-between lg:items-center md:grid md:grid-cols-5 gap-7 grid grid-cols-4 lg:text-center ">
           {menu_list.map((item, index) => {
             return (
               <div
@@ -37,9 +37,9 @@ const ExploreMenu = ({ category, setCategory }) => {
                   alt="Menu Image"
                 />
                 <p
-                  className={`mt-2 text-[16px] font-semibold text-[#747474] hover:text-amber-700 ${
+                  className={`mt-2 text-[16px] ml-4 font-semibold text-[#747474] hover:text-amber-700 ${
                     category === item.menu_name
-                      ? " border-b-2 border-b-amber-800"
+                      ? " lg:border-b-2 border-b-amber-800"
                       : ""
                   }`}
                 >
